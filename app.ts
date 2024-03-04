@@ -492,7 +492,7 @@ function generateInvoicePDF({ invoiceData, outputType, fileName }: any) {
 
 const data = generateInvoicePDF({
   invoiceData,
-  outputType: "arraybuffer",
+  outputType: "save",
   fileName: "./invoice.pdf",
 });
 
